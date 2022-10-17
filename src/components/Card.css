@@ -1,0 +1,104 @@
+/* CARD SECTION OF RETURN FNX */
+.card {
+  width: 175px;
+  font-size: 12px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+}
+
+.location {
+  margin-bottom: 1rem;
+}
+
+.card-photo {
+  border-radius: 9px;
+  width: 100%;
+  margin-bottom: 9px;
+  height: 200px;
+}
+
+.card-stats {
+  display: flex;
+  align-items: center;
+}
+
+.card-star {
+  height: 12px;
+}
+
+.card-price {
+  margin-top: auto;
+}
+
+.card-badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+  color: #918e9b;
+}
+
+.gray {
+  color: #918e9b;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+/* FOUND AT THE HELPERS SECTION*/
+.cards-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  overflow-x: auto;
+}
+
+/* ALL MEDIA QUERIES */
+
+@media only screen and (max-width: 812px) {
+  .cards-list {
+    gap: 15px;
+    margin-top: 5px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .cards-list {
+    justify-content: space-around;
+  }
+  .hero-img {
+    max-width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .hero-img {
+    align-self: center;
+  }
+
+  .hero-title {
+    padding-top: 16px;
+    font-size: 20px !important;
+    font-weight: 700;
+  }
+
+  .hero-text {
+    text-align: center;
+    font-size: 15px !important;
+    font-weight: 300;
+  }
+}
+
+@media only screen and (max-width: 384px) {
+  .hero-title {
+    font-size: 10px;
+  }
+}

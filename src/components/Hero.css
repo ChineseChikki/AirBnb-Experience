@@ -1,0 +1,31 @@
+section {
+  padding: 20px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-img {
+  max-width: 600px;
+  align-self: center;
+}
+
+.hero-title {
+  padding-top: 16px;
+  margin-bottom: 16px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.hero-text {
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.hero-title,
+.hero-text {
+  align-self: center;
+}
